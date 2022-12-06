@@ -10,6 +10,7 @@ public class RobotDie : MonoBehaviour
         if (other.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
+            
         }
         else
         {

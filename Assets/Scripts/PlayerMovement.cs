@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
 
     private Rigidbody2D _rigidbody;
+
+    
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
@@ -78,5 +80,15 @@ public class PlayerMovement : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+        
     }
+
+   
+    
+
 }
+
+
+
+
+
